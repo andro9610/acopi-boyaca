@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Imagen de referencia de la noticia cuatro">
+  <defs>
+    <linearGradient id="n4-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="0.6" stop-color="#EDEDF3" />
+      <stop offset="1" stop-color="#C6C6D5" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#n4-bg)" />
+  <path d="M0 620c210-70 350 40 540 10s300-100 490-70 130 20 170 10v230H0Z" fill="#2A2368" opacity="0.85" />
+  <circle cx="880" cy="240" r="190" fill="#BD0C2C" opacity="0.35" />
+  <circle cx="880" cy="240" r="110" fill="#2A2368" opacity="0.3" />
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ACOPI Boyacá">
+  <rect width="64" height="64" rx="18" fill="#2A2368" />
+  <path d="M32 12 50 52h-9.2l-3.1-7.7H26.3L23.2 52H14L32 12Z" fill="#FFFFFF" />
+  <circle cx="32" cy="41" r="3.4" fill="#BD0C2C" />
+</svg>

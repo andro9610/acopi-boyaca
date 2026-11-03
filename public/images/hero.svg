@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Imagen de referencia del hero">
+  <defs>
+    <linearGradient id="hero-sky" x1="0" y1="0" x2="0.35" y2="1">
+      <stop offset="0" stop-color="#3E357E" />
+      <stop offset="0.45" stop-color="#2A2368" />
+      <stop offset="1" stop-color="#100D2A" />
+    </linearGradient>
+    <radialGradient id="hero-glow-accent" cx="0.72" cy="0.22" r="0.5">
+      <stop offset="0" stop-color="#BD0C2C" stop-opacity="0.65" />
+      <stop offset="1" stop-color="#BD0C2C" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="hero-glow-light" cx="0.28" cy="0.32" r="0.45">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.24" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="hero-hill-a" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5A529C" />
+      <stop offset="1" stop-color="#2A2368" />
+    </linearGradient>
+    <linearGradient id="hero-hill-b" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3E357E" />
+      <stop offset="1" stop-color="#1B1642" />
+    </linearGradient>
+    <filter id="hero-grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch" />
+      <feColorMatrix type="saturate" values="0" />
+    </filter>
+  </defs>
+  <rect width="1600" height="1200" fill="url(#hero-sky)" />
+  <rect width="1600" height="1200" fill="url(#hero-glow-accent)" />
+  <rect width="1600" height="1200" fill="url(#hero-glow-light)" />
+  <path d="M0 700c180-90 300 40 470 10s260-130 450-100 300 120 480 70 140-70 200-60v640H0Z" fill="url(#hero-hill-a)" opacity="0.8" />
+  <path d="M0 860c200-70 330 50 520 20s280-110 470-80 260 100 430 60 130-40 180-30v370H0Z" fill="url(#hero-hill-b)" />
+  <path d="M0 1020c220-50 360 40 560 10s300-80 500-50 250 70 400 40 110-20 140-10v190H0Z" fill="#100D2A" />
+  <circle cx="1180" cy="260" r="130" fill="#FFFFFF" opacity="0.1" />
+  <circle cx="1180" cy="260" r="80" fill="#FFFFFF" opacity="0.12" />
+  <rect width="1600" height="1200" filter="url(#hero-grain)" opacity="0.14" />
+</svg>
